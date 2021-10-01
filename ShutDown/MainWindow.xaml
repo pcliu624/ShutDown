@@ -18,6 +18,6 @@
 
     </Button>
     <DatePicker  x:Name="dpicker" HorizontalAlignment="Left" Margin="96,63,0,0" VerticalAlignment="Top" Width="220" SelectedDate="{x:Static sys:DateTime.Now}" DisplayDate="{x:Static sys:DateTime.Now}" Grid.ColumnSpan="2" Height="35" FontFamily="Consolas" FontSize="15" />
-    <xctk:TimePicker  Value="{Binding CurrentDateTime}" Margin="101,111,100,85" Grid.ColumnSpan="2" FontFamily="Consolas" FontSize="15"/>
+    <xctk:TimePicker x:Name="tpciker"  Value="{Binding CurrentDateTime}" Margin="101,111,100,85" Grid.ColumnSpan="2" FontFamily="Consolas" FontSize="15"/>
   </Grid>
 </Window>
